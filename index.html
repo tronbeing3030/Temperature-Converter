@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet"></head>
+<body>
+  <h1>Temperature Converter</h1>
+  <span class="card">
+    <div class="convert">
+    <h3>CONVERT :</h3>
+    <div class="input">
+    <input id="initial" type="number">
+    <select class="s-div" name="from" id="input">
+      <option value="c">Centigrade</option>
+      <option value="f">Fahrenheit</option>
+      <option value="k">Kelvin</option>
+    </select>
+    <div class="icon">
+      <i class="fa-solid fa-caret-down"></i>
+    </div>
+    </div>
+    </div>
+  <div class="to">
+    <p>TO :</p>
+    <div class="output">
+    <input id="ans" type="number">
+    <select class="s-div" name="ansDeg" id="output">
+      <option value="c">Centigrade</option>
+      <option value="f">Fahrenheit</option>
+      <option value="k">Kelvin</option>
+    </select>
+    </div>
+    </div>
+    <button id="button">CONVERT</button>
+  </span>
+
+  <script src="app.js" href="app.js"></script>
+</body>
+</html>
